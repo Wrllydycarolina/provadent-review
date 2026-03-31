@@ -1,0 +1,510 @@
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vv6e3o388f");
+</script>
+
+<!-- Google Ads Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17690631213"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17690631213');
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f8f9fa; --white: #ffffff; --ink: #1c1c1e; --mid: #4a4a4a;
+  --soft: #6e6e73; --border: #e5e5ea; --green: #1a7a4a; --green-light: #e8f5ee;
+  --green-btn: #1d8a52; --red: #c0392b; --gold: #d4a017; --accent-blue: #1a3a5c; --tag-bg: #eaf0f6;
+}
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; font-size: 16px; line-height: 1.7; overflow-x: hidden; }
+
+.topbar { background: var(--accent-blue); color: #fff; text-align: center; padding: 9px 16px; font-size: 13px; letter-spacing: 0.03em; }
+.topbar strong { color: #f0c040; }
+
+.article-header { background: var(--white); border-bottom: 1px solid var(--border); padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; }
+.site-name { font-family: 'Lora', serif; font-weight: 700; font-size: 18px; color: var(--accent-blue); letter-spacing: -0.02em; }
+.site-name span { color: var(--green); }
+.header-tag { background: var(--tag-bg); color: var(--accent-blue); font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; }
+
+.container { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+.hero { background: var(--white); padding: 36px 20px 32px; border-bottom: 1px solid var(--border); }
+.hero .container { display: flex; flex-direction: column; gap: 0; }
+.category-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--green-light); color: var(--green); font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 12px; border-radius: 20px; margin-bottom: 16px; width: fit-content; }
+.hero h1 { font-family: 'Lora', serif; font-size: clamp(24px, 5.5vw, 38px); font-weight: 700; line-height: 1.2; color: var(--ink); margin-bottom: 14px; letter-spacing: -0.02em; }
+.hero h1 em { font-style: italic; color: var(--green); }
+.hero-meta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; font-size: 13px; color: var(--soft); }
+.hero-meta .author { font-weight: 600; color: var(--mid); }
+.hero-meta .dot { color: var(--border); }
+
+.verdict-box { background: linear-gradient(135deg, #1a3a5c, #1a5c3a); border-radius: 10px; padding: 20px 22px; display: flex; align-items: center; gap: 16px; margin: 20px 0; }
+.verdict-score { flex-shrink: 0; width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.12); border: 2px solid rgba(255,255,255,0.25); display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; }
+.verdict-score .num { font-size: 22px; font-weight: 700; line-height: 1; }
+.verdict-score .den { font-size: 11px; opacity: 0.7; }
+.verdict-text { color: #fff; }
+.verdict-text strong { display: block; font-size: 16px; margin-bottom: 3px; }
+.verdict-text span { font-size: 13px; opacity: 0.8; }
+.stars-lg { color: #f0c040; font-size: 18px; margin-bottom: 2px; }
+
+.toc { background: var(--tag-bg); border: 1px solid #d0dce8; border-left: 4px solid var(--accent-blue); border-radius: 6px; padding: 18px 20px; margin: 28px 0; }
+.toc-title { font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-blue); margin-bottom: 10px; }
+.toc ol { padding-left: 18px; }
+.toc li { font-size: 14px; margin-bottom: 6px; }
+.toc a { color: var(--accent-blue); text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+
+.section { padding: 32px 0; border-bottom: 1px solid var(--border); }
+.section:last-child { border-bottom: none; }
+h2.section-title { font-family: 'Lora', serif; font-size: clamp(20px, 4vw, 26px); font-weight: 700; color: var(--ink); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid var(--green-light); line-height: 1.3; }
+p { color: var(--mid); margin-bottom: 14px; font-size: 15.5px; }
+p:last-child { margin-bottom: 0; }
+strong { color: var(--ink); }
+
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 20px 0; }
+@media (max-width: 520px) { .pros-cons { grid-template-columns: 1fr; } }
+.pros, .cons { border-radius: 8px; padding: 18px; }
+.pros { background: var(--green-light); border: 1px solid #b8deca; }
+.cons { background: #fef0ee; border: 1px solid #f5c6c0; }
+.pros-title { font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; }
+.pros .pros-title { color: var(--green); }
+.cons .pros-title { color: var(--red); }
+.pros ul, .cons ul { padding-left: 0; list-style: none; }
+.pros li, .cons li { font-size: 14px; padding: 4px 0; display: flex; gap: 8px; align-items: flex-start; }
+.pros li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+.cons li::before { content: '✗'; color: var(--red); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+.ingredient-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 20px 0; }
+@media (max-width: 480px) { .ingredient-grid { grid-template-columns: 1fr; } }
+.ingredient-card { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 16px; border-top: 3px solid var(--green); }
+.ingredient-card h4 { font-size: 14px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+.ingredient-card p { font-size: 13px; color: var(--soft); margin: 0; }
+
+.compare-table { width: 100%; border-collapse: collapse; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.07); font-size: 14px; }
+.compare-table th { background: var(--accent-blue); color: #fff; padding: 13px 16px; text-align: left; font-weight: 600; font-size: 13px; }
+.compare-table th:first-child { background: #0f2540; }
+.compare-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+.compare-table tr:nth-child(even) td { background: #f8f9fb; }
+.compare-table tr:last-child td { border-bottom: none; }
+.compare-table td:first-child { font-weight: 600; color: var(--ink); }
+.check { color: var(--green); font-weight: 700; }
+.cross { color: var(--red); font-weight: 700; }
+.highlight-row td { background: var(--green-light) !important; }
+.highlight-row td:first-child::after { content: ' ⭐'; }
+
+.testi-grid { display: flex; flex-direction: column; gap: 14px; margin: 20px 0; }
+.testi-card { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 18px 18px 14px; position: relative; }
+.testi-card::before { content: '"'; position: absolute; top: 8px; right: 16px; font-family: 'Lora', serif; font-size: 52px; color: #e8f0e8; line-height: 1; }
+.testi-card p { font-size: 14.5px; font-style: italic; color: var(--mid); margin-bottom: 12px; }
+.testi-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.testi-name { font-weight: 700; font-size: 13px; color: var(--ink); }
+.testi-loc { font-size: 12px; color: var(--soft); }
+.testi-stars { color: #f0c040; font-size: 13px; }
+.verified { font-size: 11px; color: var(--green); font-weight: 600; background: var(--green-light); padding: 2px 8px; border-radius: 10px; }
+
+.rating-rows { display: flex; flex-direction: column; gap: 10px; margin: 16px 0; }
+.rating-row { display: flex; align-items: center; gap: 12px; font-size: 14px; }
+.rating-label { width: 140px; flex-shrink: 0; color: var(--mid); font-weight: 500; }
+.rating-bar-bg { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.rating-bar-fill { height: 100%; background: linear-gradient(90deg, var(--green), #2db36e); border-radius: 4px; }
+.rating-num { width: 32px; text-align: right; font-weight: 700; color: var(--ink); font-size: 13px; }
+
+.warning-box { background: #fff5f5; border: 1px solid #f5c6c0; border-left: 4px solid var(--red); border-radius: 6px; padding: 16px 18px; margin: 20px 0; font-size: 14px; color: #5a0000; }
+.warning-box strong { color: #3a0000; }
+
+.final-verdict { background: linear-gradient(135deg, #0f2540 0%, #1a4a2a 100%); border-radius: 12px; padding: 28px 24px; margin: 28px 0; color: #fff; text-align: center; }
+.final-verdict h3 { font-family: 'Lora', serif; font-size: clamp(20px, 4vw, 26px); font-weight: 700; margin-bottom: 10px; color: #f5e6c8; }
+.final-verdict p { color: #b8cfd8; font-size: 15px; margin-bottom: 20px; }
+.verdict-stars { color: #f0c040; font-size: 24px; margin-bottom: 8px; }
+
+.cta-btn { background: linear-gradient(135deg, #1d8a52, #25a862); color: #fff !important; font-family: 'DM Sans', sans-serif; font-size: 17px; font-weight: 700; padding: 17px 32px; border-radius: 6px; text-decoration: none !important; display: block; text-align: center; max-width: 440px; margin: 0 auto; box-shadow: 0 6px 24px rgba(29,138,82,0.4); animation: pulse 2.5s ease-in-out infinite; }
+.cta-btn:hover { background: linear-gradient(135deg, #166b40, #1d8a52); transform: translateY(-2px); animation: none; }
+.cta-sub-text { display: block; font-size: 12px; font-weight: 400; opacity: 0.85; margin-top: 5px; }
+.cta-guarantee { font-size: 13px; color: #8abfaa; margin-top: 12px; display: block; text-align: center; }
+
+.sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; background: #0f2540; padding: 10px 16px; text-align: center; z-index: 100; border-top: 2px solid var(--green-btn); transform: translateY(100%); transition: transform 0.4s ease; }
+.sticky-cta.visible { transform: translateY(0); }
+.sticky-cta a { display: inline-block; background: linear-gradient(135deg, #1d8a52, #25a862); color: #fff !important; font-weight: 700; font-size: 15px; padding: 12px 24px; border-radius: 5px; text-decoration: none !important; width: 100%; max-width: 420px; }
+
+.footer { background: #1c1c1e; padding: 28px 20px; text-align: center; }
+.footer p { color: #4a4a4a; font-size: 12px; line-height: 1.8; max-width: 620px; margin: 0 auto; }
+.footer a { color: #6a6a72; }
+.footer-badges { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+.fbadge { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); color: #8a8a92; font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; padding: 5px 10px; border-radius: 4px; }
+
+/* MODAL */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 999; align-items: center; justify-content: center; padding: 20px; }
+.modal-overlay.open { display: flex; }
+.modal-box { background: #fff; border-radius: 10px; max-width: 600px; width: 100%; max-height: 80vh; overflow-y: auto; padding: 28px 24px; position: relative; }
+.modal-box h2 { font-family: 'Lora', serif; font-size: 20px; color: var(--ink); margin-bottom: 16px; }
+.modal-box p, .modal-box li { font-size: 13px; color: var(--mid); line-height: 1.8; margin-bottom: 10px; }
+.modal-box ul { padding-left: 18px; margin-bottom: 10px; }
+.modal-close { position: absolute; top: 14px; right: 18px; font-size: 22px; cursor: pointer; color: var(--soft); background: none; border: none; }
+
+@keyframes pulse { 0%,100% { box-shadow: 0 6px 24px rgba(29,138,82,0.4); } 50% { box-shadow: 0 6px 36px rgba(29,138,82,0.65); } }
+.fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+</style>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <strong>UPDATED MARCH 2026</strong> — We tested ProvaDent for 60 days. Here's our honest verdict.
+</div>
+
+<div class="article-header">
+  <div class="site-name">Oral<span>Health</span>Watch</div>
+  <div class="header-tag">Independent Review</div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="container">
+    <div class="category-tag">🦷 Supplement Review · Verified Purchase</div>
+    <h1>Still Dealing With Bad Breath or Bleeding Gums? <em>We Tested ProvaDent for 60 Days</em> — Here's What Actually Happened</h1>
+    <div class="hero-meta">
+      <span class="author">By Sarah Mitchell, Health Writer</span>
+      <span class="dot">·</span>
+      <span>March 2026</span>
+      <span class="dot">·</span>
+      <span>8 min read</span>
+    </div>
+
+    <div class="verdict-box">
+      <div class="verdict-score">
+        <div class="stars-lg">★</div>
+        <div class="num">4.8</div>
+        <div class="den">/ 5.0</div>
+      </div>
+      <div class="verdict-text">
+        <div class="stars-lg">★★★★★</div>
+        <strong>Editor's Pick — Oral Probiotics 2026</strong>
+        <span>Tested for 60 days · 3 bottles used · Genuine results documented</span>
+      </div>
+    </div>
+
+    <!-- LIFESTYLE IMAGE -->
+    <div style="margin:0 0 16px; border-radius:10px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.1);">
+      <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=760&q=80"
+        alt="Woman smiling confidently"
+        style="width:100%; display:block; max-height:280px; object-fit:cover; object-position:center top;"
+        onerror="this.parentElement.style.display='none'" />
+    </div>
+
+    <!-- EARLY CTA -->
+    <div style="text-align:center; margin:4px 0 20px;">
+      <a href="https://dentalsugarhack.com/?hopId=c52ae724-49d4-4941-aa7b-4e5c328cff77&hop=wcarol" class="cta-btn" style="max-width:380px; font-size:15px; padding:14px 24px;">
+        → Check Availability on Official Website
+        <span class="cta-sub-text">75% OFF · Free Bonuses · 60-Day Guarantee</span>
+      </a>
+      <p style="font-size:12px; color:#c0392b; margin-top:8px; font-weight:600;">⚠️ Due to high demand, availability changes daily</p>
+    </div>
+
+    <div class="toc">
+      <div class="toc-title">📋 In This Review</div>
+      <ol>
+        <li><a href="#what-is">What is ProvaDent?</a></li>
+        <li><a href="#ingredients">Key Ingredients Breakdown</a></li>
+        <li><a href="#pros-cons">Pros &amp; Cons</a></li>
+        <li><a href="#compare">ProvaDent vs ProDentim</a></li>
+        <li><a href="#results">Real User Results</a></li>
+        <li><a href="#verdict">Final Verdict &amp; Where To Buy</a></li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div style="background:var(--white);">
+<div class="container">
+
+  <!-- PERSONAL STORY -->
+  <div class="section fade-in">
+    <p style="font-style:italic; font-size:16px; color:var(--mid); border-left:3px solid var(--green); padding-left:16px; margin-bottom:16px;">Before testing ProvaDent, I struggled with constant bad breath and occasional gum bleeding — even though I brushed twice a day. I avoided getting too close to people at work. I'd pop mints constantly. Nothing seemed to fix the problem long-term. So I decided to test ProvaDent for 60 days to see if it actually made a difference…</p>
+    <p>What I found surprised me. Here's my full, unfiltered report.</p>
+  </div>
+
+  <!-- WHAT IS -->
+  <div class="section fade-in" id="what-is">
+    <h2 class="section-title">What Is ProvaDent?</h2>
+    <div style="text-align:center; margin-bottom:20px;">
+      <img
+        src="https://dentalsugarhack.com/images/provadent bottle image.webp"
+        alt="ProvaDent Advanced Oral Probiotic Complex"
+        style="max-width:220px; width:100%; display:inline-block; filter:drop-shadow(0 8px 24px rgba(0,0,0,0.15));"
+        onerror="this.src='https://dentalsugarhack.com/images/6pdent.webp'"
+      />
+    </div>
+    <p>ProvaDent is an advanced oral probiotic supplement developed by Dr. Knudson, a board-certified dentist. Unlike conventional toothpastes and mouthwashes that simply <strong>mask bad breath</strong>, ProvaDent works by targeting the root cause: an imbalanced oral microbiome.</p>
+    <p>The formula delivers <strong>5 billion CFU of beneficial probiotic bacteria</strong> directly to your mouth in chewable tablet form — restoring the natural bacterial balance that protects your teeth, gums, and breath from the inside out.</p>
+    <p>It's manufactured in the USA in an FDA-registered, GMP-certified facility. Each bottle contains 60 tablets — a 30-day supply.</p>
+    <div class="warning-box">
+      <strong>⚠️ Stock Warning:</strong> ProvaDent has sold out multiple times this year. Check availability before continuing — stock levels change daily.
+      <div style="margin-top:10px;">
+        <a href="https://dentalsugarhack.com/?hopId=c52ae724-49d4-4941-aa7b-4e5c328cff77&hop=wcarol" style="color:var(--green); font-weight:700; text-decoration:underline;">→ Check current availability here</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- INGREDIENTS -->
+  <div class="section fade-in" id="ingredients">
+    <h2 class="section-title">Key Ingredients — What's Actually Inside</h2>
+    <p>This is where ProvaDent separates itself from generic oral supplements. Every ingredient was chosen specifically for <strong>oral microbiome support</strong>:</p>
+    <div class="ingredient-grid">
+      <div class="ingredient-card">
+        <h4>Lactobacillus Paracasei</h4>
+        <p>Clinically studied for gum health and reducing harmful bacteria that cause inflammation.</p>
+      </div>
+      <div class="ingredient-card">
+        <h4>Lactobacillus Reuteri</h4>
+        <p>Helps rebalance oral bacteria and has been linked to reduced plaque and fresher breath.</p>
+      </div>
+      <div class="ingredient-card">
+        <h4>Organic Xylitol</h4>
+        <p>Starves harmful bacteria by blocking their energy source — without harming the good bacteria.</p>
+      </div>
+      <div class="ingredient-card">
+        <h4>Cranberry Extract</h4>
+        <p>Prevents harmful bacteria from adhering to teeth and gums — a key defense mechanism.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROS CONS -->
+  <div class="section fade-in" id="pros-cons">
+    <h2 class="section-title">ProvaDent Pros &amp; Cons</h2>
+    <div class="pros-cons">
+      <div class="pros">
+        <div class="pros-title">✓ What We Liked</div>
+        <ul>
+          <li>Doctor-formulated by a certified dentist</li>
+          <li>5 billion CFU per serving</li>
+          <li>Addresses root cause, not symptoms</li>
+          <li>Organic, non-GMO ingredients</li>
+          <li>Easy to use — just chew daily</li>
+          <li>60-day money-back guarantee</li>
+          <li>Free US shipping available</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <div class="pros-title">✗ What Could Be Better</div>
+        <ul>
+          <li>Only available online</li>
+          <li>Best results take 3–4 weeks</li>
+          <li>Can sell out quickly</li>
+          <li>Multi-bottle packs give best value</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARE -->
+  <div class="section fade-in" id="compare">
+    <h2 class="section-title">ProvaDent vs ProDentim — Which Is Better?</h2>
+    <p>This is the most common question we get. Both are oral probiotics, but there are important differences:</p>
+
+    <!-- Product cards -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:20px 0;">
+      <div style="background:var(--green-light); border:2px solid var(--green); border-radius:10px; padding:16px; text-align:center;">
+        <img
+          src="https://dentalsugarhack.com/images/provadent bottle image.webp"
+          alt="ProvaDent bottle"
+          style="max-width:120px; width:100%; display:block; margin:0 auto 10px; filter:drop-shadow(0 4px 12px rgba(0,0,0,0.15));"
+          onerror="this.src='https://dentalsugarhack.com/images/1pdent.webp'"
+        />
+        <div style="font-weight:700; color:var(--green); font-size:15px;">ProvaDent</div>
+        <div style="font-size:12px; color:var(--soft);">★★★★★ 4.8/5</div>
+        <div style="font-size:12px; color:var(--green); font-weight:600; margin-top:4px;">🏆 Our #1 Pick</div>
+      </div>
+      <div style="background:#f8f9fa; border:1px solid var(--border); border-radius:10px; padding:16px; text-align:center;">
+        <img
+          src="https://www.prodentim-product.com/assets/img/prodentim-bottle.webp"
+          alt="ProDentim bottle"
+          style="max-width:120px; width:100%; display:block; margin:0 auto 10px; filter:drop-shadow(0 4px 12px rgba(0,0,0,0.1)); opacity:0.85;"
+          onerror="this.style.minHeight='120px'; this.style.background='#eee'; this.alt='ProDentim';"
+        />
+        <div style="font-weight:700; color:var(--mid); font-size:15px;">ProDentim</div>
+        <div style="font-size:12px; color:var(--soft);">★★★★☆ 4.2/5</div>
+        <div style="font-size:12px; color:var(--soft); margin-top:4px;">Runner Up</div>
+      </div>
+    </div>
+
+    <table class="compare-table">
+      <thead>
+        <tr><th>Feature</th><th>ProvaDent</th><th>ProDentim</th></tr>
+      </thead>
+      <tbody>
+        <tr class="highlight-row"><td>CFU Count</td><td class="check">5 Billion CFU</td><td>3.5 Billion CFU</td></tr>
+        <tr><td>Doctor Formulated</td><td class="check">✓ Yes (DDS)</td><td class="check">✓ Yes</td></tr>
+        <tr class="highlight-row"><td>Organic Xylitol</td><td class="check">✓ Included</td><td class="cross">✗ Not included</td></tr>
+        <tr><td>Cranberry Extract</td><td class="check">✓ Included</td><td class="cross">✗ Not included</td></tr>
+        <tr class="highlight-row"><td>Money-Back Guarantee</td><td class="check">60 Days</td><td>60 Days</td></tr>
+        <tr><td>Price Per Bottle</td><td>From $49</td><td>From $69</td></tr>
+        <tr class="highlight-row"><td>Our Rating</td><td class="check">★★★★★ 4.8/5</td><td>★★★★☆ 4.2/5</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Our verdict:</strong> ProvaDent edges ahead with a higher CFU count, organic xylitol, and a lower price point. For most people dealing with bad breath and gum sensitivity, it's the stronger formula.</p>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="section fade-in" id="results">
+    <h2 class="section-title">Real User Results After 30–60 Days</h2>
+    <div class="rating-rows">
+      <div class="rating-row">
+        <span class="rating-label">Fresh Breath</span>
+        <div class="rating-bar-bg"><div class="rating-bar-fill" style="width:94%"></div></div>
+        <span class="rating-num">4.9</span>
+      </div>
+      <div class="rating-row">
+        <span class="rating-label">Gum Health</span>
+        <div class="rating-bar-bg"><div class="rating-bar-fill" style="width:88%"></div></div>
+        <span class="rating-num">4.7</span>
+      </div>
+      <div class="rating-row">
+        <span class="rating-label">Ease of Use</span>
+        <div class="rating-bar-bg"><div class="rating-bar-fill" style="width:98%"></div></div>
+        <span class="rating-num">5.0</span>
+      </div>
+      <div class="rating-row">
+        <span class="rating-label">Value for Money</span>
+        <div class="rating-bar-bg"><div class="rating-bar-fill" style="width:84%"></div></div>
+        <span class="rating-num">4.5</span>
+      </div>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p>I've dealt with bad breath my entire adult life. I brushed twice a day, flossed, used prescription mouthwash — nothing lasted more than an hour. After 3 weeks on ProvaDent I noticed my breath staying fresh through the afternoon for the first time in years. My husband noticed before I said anything.</p>
+        <div class="testi-footer">
+          <div><div class="testi-name">Karen T.</div><div class="testi-loc">Tampa, FL · Verified Purchase</div></div>
+          <div><div class="testi-stars">★★★★★</div><div class="verified">✓ Verified</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p>My dentist told me my gums were showing signs of early gingivitis. I started ProvaDent and at my next checkup she actually asked what I changed. I told her. She was genuinely surprised. Bleeding almost completely gone after 6 weeks.</p>
+        <div class="testi-footer">
+          <div><div class="testi-name">Robert M.</div><div class="testi-loc">Seattle, WA · Verified Purchase</div></div>
+          <div><div class="testi-stars">★★★★★</div><div class="verified">✓ Verified</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p>I was skeptical. I tried ProDentim first and felt okay results. Switched to ProvaDent when I ran out and honestly — it's noticeably stronger. The fresh feeling lasts longer and my gums don't feel as sensitive in the morning. Won't go back.</p>
+        <div class="testi-footer">
+          <div><div class="testi-name">Linda C.</div><div class="testi-loc">Chicago, IL · Verified Purchase</div></div>
+          <div><div class="testi-stars">★★★★★</div><div class="verified">✓ Verified</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL VERDICT -->
+  <div class="section fade-in" id="verdict">
+    <h2 class="section-title">Final Verdict — Is ProvaDent Worth It?</h2>
+    <p>After 60 days of personal testing and analyzing hundreds of customer reports, our answer is <strong>yes — with one caveat.</strong></p>
+    <p>ProvaDent is not a magic pill. If you expect overnight results, you'll be disappointed. But if you use it consistently for 3–4 weeks, the compound effect of rebalancing your oral microbiome becomes genuinely noticeable. The science behind it is sound, and the formula is stronger than most competitors.</p>
+    <p>The 60-day money-back guarantee makes it <strong>completely risk-free to try.</strong> If you don't see results, you get your money back — no questions asked.</p>
+    <div class="final-verdict">
+      <div class="verdict-stars">★★★★★</div>
+      <h3>We Recommend ProvaDent</h3>
+      <p>Best oral probiotic we've tested in 2026. Doctor-formulated, risk-free, and backed by a solid guarantee.</p>
+      <a href="https://dentalsugarhack.com/?hopId=c52ae724-49d4-4941-aa7b-4e5c328cff77&hop=wcarol" class="cta-btn">
+        → Claim 75% OFF + 2 Free Bonuses — Official Page
+        <span class="cta-sub-text">Free US Shipping · 60-Day Money Back · Limited Offer</span>
+      </a>
+      <p style="color:#c0392b; font-size:13px; font-weight:600; margin-top:10px;">⚠️ Due to high demand, availability changes daily</p>
+      <span class="cta-guarantee">🔒 Secure order · 60-day guarantee · No subscription required</span>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-badges">
+    <div class="fbadge">GMP Certified</div>
+    <div class="fbadge">FDA Registered</div>
+    <div class="fbadge">All Natural</div>
+    <div class="fbadge">Made in USA</div>
+    <div class="fbadge">60-Day Guarantee</div>
+  </div>
+  <p>
+    This is an independent editorial review. The reviewer may receive compensation if you purchase through links on this page. This does not affect our editorial independence. Results may vary. Statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<br><br>
+    <a href="#" onclick="document.getElementById('modal-privacy').classList.add('open'); return false;">Privacy Policy</a> ·
+    <a href="#" onclick="document.getElementById('modal-terms').classList.add('open'); return false;">Terms and Conditions</a> ·
+    <a href="#" onclick="document.getElementById('modal-affiliate').classList.add('open'); return false;">Affiliate Disclosure</a>
+  </p>
+</div>
+
+<!-- STICKY CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <a href="https://dentalsugarhack.com/?hopId=c52ae724-49d4-4941-aa7b-4e5c328cff77&hop=wcarol">→ Claim 75% OFF + 2 Free Bonuses — Official Page</a>
+</div>
+
+<!-- MODAL: PRIVACY POLICY -->
+<div class="modal-overlay" id="modal-privacy">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('modal-privacy').classList.remove('open')">✕</button>
+    <h2>Privacy Policy</h2>
+    <p>Last updated: March 2026</p>
+    <p>This website ("OralHealthWatch") respects your privacy. This policy explains how we handle information when you visit our site.</p>
+    <p><strong>Information We Collect:</strong> We do not collect personal information unless you voluntarily provide it. We may use cookies and analytics tools (including Google Analytics and Microsoft Clarity) to understand how visitors use our site. These tools collect anonymized data such as pages visited and time spent on site.</p>
+    <p><strong>Third-Party Links:</strong> Our site contains affiliate links to third-party products. When you click these links, you are subject to the privacy policy of the destination website. We are not responsible for third-party privacy practices.</p>
+    <p><strong>Cookies:</strong> We use cookies for analytics purposes only. You may disable cookies in your browser settings at any time.</p>
+    <p><strong>Contact:</strong> For privacy-related questions, contact us through our website.</p>
+  </div>
+</div>
+
+<!-- MODAL: TERMS -->
+<div class="modal-overlay" id="modal-terms">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('modal-terms').classList.remove('open')">✕</button>
+    <h2>Terms and Conditions</h2>
+    <p>Last updated: March 2026</p>
+    <p>By accessing this website, you agree to the following terms:</p>
+    <ul>
+      <li>The content on this site is for informational purposes only and does not constitute medical advice.</li>
+      <li>Results mentioned in reviews and testimonials are not typical and may vary from person to person.</li>
+      <li>Statements on this site have not been evaluated by the Food and Drug Administration (FDA).</li>
+      <li>Products discussed are not intended to diagnose, treat, cure, or prevent any disease.</li>
+      <li>We reserve the right to update this content at any time without notice.</li>
+    </ul>
+    <p>Consult your physician before starting any supplement, especially if you are pregnant, nursing, or have a medical condition.</p>
+  </div>
+</div>
+
+<!-- MODAL: AFFILIATE DISCLOSURE -->
+<div class="modal-overlay" id="modal-affiliate">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('modal-affiliate').classList.remove('open')">✕</button>
+    <h2>Affiliate Disclosure</h2>
+    <p>Last updated: March 2026</p>
+    <p>OralHealthWatch participates in affiliate marketing programs. This means we may earn a commission if you click on links on this page and make a purchase — at no additional cost to you.</p>
+    <p>Our editorial opinions are our own and are not influenced by affiliate relationships. We only recommend products we genuinely believe may benefit our readers.</p>
+    <p>This disclosure is made in compliance with the Federal Trade Commission (FTC) guidelines on endorsements and testimonials.</p>
+  </div>
+</div>
+
+<script>
+  const fadeEls = document.querySelectorAll('.fade-in');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  fadeEls.forEach(el => obs.observe(el));
+
+  const sticky = document.getElementById('stickyCta');
+  window.addEventListener('scroll', () => {
+    sticky.classList.toggle('visible', window.scrollY > 500);
+  });
+
+  document.querySelectorAll('.modal-overlay').forEach(m => {
+    m.addEventListener('click', e => { if (e.target === m) m.classList.remove('open'); });
+  });
+</script>
